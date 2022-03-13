@@ -40,5 +40,5 @@ So i created my own using VueJS, keeping in mind that I wanted it to be easily c
 
 This is GNU LGPL, check the LICENSE file.
 
-https://github.com/schouffy/gamedev-portfolio
+https://github.com/schouffy/gamedev-portfolio \
 [For fast testing vue](https://codepen.io/arhey/pen/qNypPN)
