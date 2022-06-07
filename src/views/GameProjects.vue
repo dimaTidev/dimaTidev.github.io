@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <h1>My Games</h1>
+  <div style="background-color:#383838;">
 
-    <div style="margin-bottom: 30px;">
-      The following are some games I've made or heavily contributed to.
-    </div>
 
     <ProjectsList v-bind:projects="projects" />
 

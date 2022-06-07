@@ -98,7 +98,7 @@ h1 {
 
   #app {
     text-align: left;
-    line-height: 1.8em;
+    line-height: 1.5em;
   }
 
   h1 {
@@ -108,7 +108,7 @@ h1 {
   }
 
   .main {
-    padding: 0px 40px 40px 180px;
+    padding: 0px 40px 40px 40px;
   }
 
   .main, .header, .footer {

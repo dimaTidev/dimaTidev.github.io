@@ -23,6 +23,8 @@
         width: 100%;
     }
 
+
+
     .notice {
         border:1px solid rgb(0, 85, 0);
         background-color: rgb(144, 196, 144);
@@ -40,6 +42,11 @@
         opacity: 0.6;
     }
 
+    .pc-screenshothalf {
+        height: 100%;
+        width : 100%;
+    }
+
     @media only screen and (min-width: 620px){
         iframe.youtube {
             max-width: 728px;
@@ -52,8 +59,13 @@
         }
     
         .pc-screenshot {
+            min-height: 225px;
             margin: 15px;
             width : 400px;
+        }
+
+        .pc-screenshothalf {
+            width: 30%;
         }
     }
 }

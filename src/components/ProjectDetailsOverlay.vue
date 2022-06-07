@@ -43,7 +43,7 @@ export default Vue.extend({
 
 <style scoped>
 .overlay {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.75);
   z-index: 10;
   position:fixed;
   top:0px;

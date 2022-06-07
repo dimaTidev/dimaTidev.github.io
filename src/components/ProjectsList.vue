@@ -28,6 +28,7 @@
         :htmlContent="popupContent"
         :color="popupColor"
       />
+       <meta v-if="popupImage" property=”og:image” :content='popupImage' />
     </div>
 </template>
 
@@ -35,6 +36,7 @@
 import Vue from "vue";
 import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";
 import ProjectData from "@/data/ProjectData.ts";
+import gameProjectsData from "@/data/GameProjectsData.ts";
 
 export default Vue.extend({
   name: "ProjectsList",
@@ -49,7 +51,8 @@ export default Vue.extend({
       showPopup: false,
       popupTitle: "",
       popupColor: "",
-      popupContent: ""
+      popupContent: "",
+      popupImage: ""
     };
   },
   methods: {
@@ -60,9 +63,18 @@ export default Vue.extend({
       this.popupTitle = item.name;
       this.popupColor = item.accentColor;
       this.popupContent = item.htmlDescription;
+      this.popupImage = item.iconUrl;
       this.showPopup = true;
       window.scrollTo(0,0);
     },
+  },
+  beforeMount(){
+    if ("project" in this.$route.query)
+    {
+      const item: ProjectData  = gameProjectsData.find(project => project.id == this.$route.query.project)!;
+      this.showDetails(item);
+    }
+      
   },
 });
 </script>
@@ -70,7 +82,7 @@ export default Vue.extend({
 <style scoped>
 
 .project-item {
-  height: 200px;
+  height: 450px;
   margin-bottom: 20px;
   width: 100%;
   cursor: pointer;
@@ -108,10 +120,12 @@ export default Vue.extend({
 
 @media only screen and (min-width: 620px){
   .projects-list {
-    max-width: 900px;
+    max-width: 1200x;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
    /* grid-auto-rows: minmax(250px, auto);*/
   }
 

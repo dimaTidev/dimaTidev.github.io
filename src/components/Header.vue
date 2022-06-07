@@ -4,8 +4,11 @@
       <router-link to="/">About me</router-link>
       <router-link to="/game-projects">My Games</router-link>
       <!-- <router-link to="/other-projects">Side Projects</router-link> -->
-      <router-link to="/resume">Resume</router-link>
+      <!-- <router-link to="/resume">Resume</router-link> -->
+      <router-link to="/resume_page">Resume</router-link>
       <router-link to="/contact">Contact</router-link>
+      
+      
     </div>
   </div>
 </template>
@@ -41,7 +44,7 @@ a {
   margin-right: 15px;
   padding-bottom: 8px;
   white-space: nowrap;
-  display: inline-block;
+  //display: inline-block;
 }
 
 .router-link-exact-active {
