@@ -1,6 +1,13 @@
 <template>
   <div class="centerSpace" style="margin-bottom: 80px;">
 
+    <meta property=’og:title’ content='TITLE OF YOUR WEBSITE'/>
+    <meta property=’og:image’ content='img/projects/NeonRacer/Icon.png'/>
+    <meta property=’og:description’ content='DESCRIPTION OF YOUR SITE'/>
+    <meta property=’og:url’ content='URL OF YOUR WEBSITE'/>
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
+
     <div style="padding: 10px 30px 0px 30px; text-align: right;">
       <a class="download-link" href="https://www.docs.google.com/document/d/10RB1EKj8RIKA4bNUYqm5dbVqAIHBrLdzX-rF_Go0KH8/export?format=pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
     </div>
