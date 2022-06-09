@@ -38,7 +38,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/BrawlKarts/Screen_2.jpg" alt="Singing Addict Screenshot" />
         <img class="pc-screenshot" src="img/projects/BrawlKarts/Screen_3.jpg" alt="Singing Addict Screenshot" />
     </div>`, "#222222"),
-    new ProjectData("project-11", "HideIO", "img/projects/HideIO/Icon.png", `
+    new ProjectData("HideIO", "HideIO", "img/projects/HideIO/Icon.png", `
     Prototype of game Hide and Seek. Multiplayer game, made on Unity Network. You can play for hider or seeker. Hiders can morphed to objects. Seekers have to find hiders. You also can customize character like clothes, boots, helmets, weapons. 
     <div class="paragraph center">
         <img class="pc-screenshot" src="img/projects/HideIO/HideSeek.gif" alt="Singing Addict Screenshot" />
@@ -173,7 +173,7 @@ export default [
     <img class="pc-screenshot" src="img/projects/COC2/Screen_4.jpg" alt="Singing Addict Screenshot" />
     </div>
     `, "#222222"),
-    new ProjectData("project-4", "Clash of Zombie", "img/projects/Zombie/Icon.png", `
+    new ProjectData("ClashOfZombie", "Clash of Zombie", "img/projects/Zombie/Icon.png", `
     <div class="paragraph">
     Clone of the game SAS3. You can buy weapons, ammo, grenades. And participate in battles with zombies. The game has not been published.
     </div>
