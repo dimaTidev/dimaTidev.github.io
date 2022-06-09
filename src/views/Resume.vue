@@ -7,7 +7,7 @@
       <br />I have been working as a fullstack mobile game developer for 7 year, worked on Unity3d engine.
       <br />With two friends, I also started <a href="https://play.google.com/store/apps/developer?id=CactusGamesCompany" target="_blank">CactusGames</a> to develop mobile games.
       <br />
-      <br />Right now I'm working on my own to-be-announced <a @click="showDetails('project-9')">game</a>. I'm looking for a job so if you have any opportunity feel free to 
+      <br />Right now I'm working on my own to-be-announced <a @click="showDetails('MusicHeroRacer')">game</a>. I'm looking for a job so if you have any opportunity feel free to 
       <router-link to="/contact">contact me</router-link>.
       <br />
       <br />Besides development, I'm passionate about video games, snowboarding, fpv quadcopter freestyle, acrobatic, karting.
@@ -26,13 +26,13 @@
 
       <div>Full game development process.</div>
 
-      <div class="tech-stack">2021-2022 - <a @click="showDetails('project-9')">Neon Racer</a> (in progress)</div>
+      <div class="tech-stack">2021-2022 - <a @click="showDetails('MusicHeroRacer')">Neon Racer</a> (in progress)</div>
       <div class="tech-stack">2021 - TopDown car battles like PikoTanks (Network, in progress)(Showcase in progress)</div>
       <div class="tech-stack">2021 - 3rd person shooter (Network prototype)(Showcase in progress)</div>
       <div class="tech-stack">2020-2021 - Big City Life 2 (not released)(Showcase in progress)</div>
-      <div class="tech-stack">2020 - <a @click="showDetails('project-10')">Brawl Carts</a> (prototype)</div>
+      <div class="tech-stack">2020 - <a @click="showDetails('BrawlKarts')">Brawl Carts</a> (prototype)</div>
       <div class="tech-stack">2019 - Helix Fall (prototype)(Showcase in progress)</div>
-      <div class="tech-stack">2018 - <a @click="showDetails('project-8')">Slime attack</a>  (prototype)</div>
+      <div class="tech-stack">2018 - <a @click="showDetails('SlimeAttack')">Slime attack</a>  (prototype)</div>
 
       <h3>Cactus Games</h3>
       <h4>10.2015-02.2021</h4>
@@ -42,7 +42,7 @@
       <div class="tech-stack">2019 - clone HideIO (prototype)(Showcase in progress)</div>
       <div class="tech-stack">2018 - clone FoesIO (prototype, the project was lost...)</div>
       <div class="tech-stack">08.2017 - <a @click="showDetails('project-5')">Big City Life</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.BCL" target="_blank">GooglePlay</a>: installs 10 000 000+, rating 4.5) Revenue: 570$/day</div>
-      <div class="tech-stack">10.2016 - <a @click="showDetails('project-4')">Clash of Zombie</a> (not released)</div>
+      <div class="tech-stack">10.2016 - <a @click="showDetails('ClashOfZombie')">Clash of Zombie</a> (not released)</div>
       <div class="tech-stack">07.2016 - <a @click="showDetails('project-3')">Clash of Crime 2</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.ClashOfCrime2" target="_blank">GooglePlay</a>: installs 5 000 000+, rating 4.09)</div> 
       <div class="tech-stack">03.2016 - <a @click="showDetails('project-2')">Clash of Crime</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.ClashOfCrime" target="_blank">GooglePlay</a>: installs 10 000 000+, rating 4.0) Revenue: 1040$/day</div> 
       <div class="tech-stack">10.2015 - <a @click="showDetails('project-1')">World of derby</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.WOD" target="_blank">GooglePlay</a>: installs 1 000 000+, rating 4.3)</div> 

@@ -1,7 +1,9 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
 
+    <table style="vertical-align: top;">
+<th>
+  <h1>Hello!</h1>
     <div class="paragraph">
       <div>
         I'm <strong>Dmytro Tymofiienko</strong>, 7 years experienced mobile game developer on Unity3D.<br/>
@@ -15,10 +17,15 @@
 
       <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong>. You can reach me at <a href="mailto:timofeenkodima@gmail.com">TimofeenkoDima@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
-
+</th>
+<th>
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar_new.png" alt="Avatar of John" /> 
     </div>
+</th>
+
+    </table>
+
 
     <div style="clear:both"></div>
 
@@ -28,21 +35,14 @@
 <style scoped>
 .paragraph {
   max-width: 700px;
-  margin-bottom: 20px;
 }
 
 .photo {
-  margin-top: 50px;
-  text-align: center;
+  max-width: 150px;
 }
 
 @media only screen and (min-width: 620px){
-  .paragraph {
-    float: left;
-  }
-
   .photo {
-    float: left;
     padding: 10px;
     padding-left: 80px;
   }

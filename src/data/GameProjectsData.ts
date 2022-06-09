@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-9", "Music Hero Racer", "img/projects/NeonRacer/Icon.png", `
+    new ProjectData("MusicHeroRacer", "Music Hero Racer", "img/projects/NeonRacer/Icon.png", `
     <div class="paragraph">
         Variation of the game Guitar Hero. In this game, you need to collect blocks to the music. Collect cars and upgrade them. 
         The game is currently under development. 
@@ -24,9 +24,9 @@ export default [
         </ul>
     </div>
     `, "#222222"),
-    new ProjectData("project-10", "Brawl Karts", "img/projects/BrawlKarts/Icon.png", `
+    new ProjectData("BrawlKarts", "Brawl Karts", "img/projects/BrawlKarts/Icon.png", `
     <div class="paragraph">
-        Prototype. You can select 1 of 5 vehicles. You can use weapons for survive. Who will drive too slowly will be run over by an evil combine.
+        Prototype. Casual racing game. You can select 1 of 5 types of vehicles. You can use weapons to survive. Who drives too slowly will be run over by an evil machine.
     </div>
     <br/>Short demo about gameplay.
     <div class="paragraph center">
@@ -58,10 +58,10 @@ export default [
      </ul>
     </div>
     `, "#222222"),
-    new ProjectData("project-12", "FoesIO", "img/projects/FoesIO/Icon.png", `
+    new ProjectData("FoesIO", "FoesIO", "img/projects/FoesIO/Icon.png", `
         Sorry, show case in progress.
     `, "#222222"),
-    new ProjectData("project-8", "Slime attack", "img/projects/SlimeAttack/Icon.png", `
+    new ProjectData("SlimeAttack", "Slime attack", "img/projects/SlimeAttack/Icon.png", `
     <div class="paragraph">
         Completed prototype. 2d color match game. Main goal feed porings with the same color of apple. In game you can upgrade and use some special skills.
     </div>
@@ -97,7 +97,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/WOD/Wod_screen_menu.jpg" alt="Singing Addict Screenshot" />
     </div>
     `, "#222222"),
-    new ProjectData("project-13", "BigCityLife Update", "img/projects/BCL/Icon.png", `
+    new ProjectData("BCL_U", "BigCityLife Update", "img/projects/BCL/Icon.png", `
     <div class="paragraph">
     <p>The old version of this game was published on google play. Here is shown huge update for this game. But due to a team breakup development of this project was stopped.</p>
     <p>In this game, the player can use jobs to earn money and buy cars, house, customize a character, and fulfill desires. There is a taxi job, food delivery, 3 types of city clean job, builder, thief. Character need for sleep, eat and have fun. If a player uses cheats, the game will put him in the prison.

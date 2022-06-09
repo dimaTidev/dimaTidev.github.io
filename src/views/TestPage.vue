@@ -1,12 +1,13 @@
 <template>
   <div class="centerSpace" style="margin-bottom: 80px;">
-
-    <meta property=’og:title’ content='TITLE OF YOUR WEBSITE'/>
-    <meta property=’og:image’ content='img/projects/NeonRacer/Icon.png'/>
-    <meta property=’og:description’ content='DESCRIPTION OF YOUR SITE'/>
-    <meta property=’og:url’ content='URL OF YOUR WEBSITE'/>
-    <meta property='og:image:width' content='1200' />
-    <meta property='og:image:height' content='627' />
+    <head>
+        <meta property="og:title" content="TITLE OF YOUR WEBSITE"/>
+        <meta property="og:image" content="img/projects/NeonRacer/Icon.png"/>
+        <meta property="og:description" content="DESCRIPTION OF YOUR SITE"/>
+        <meta property="og:url" content="URL OF YOUR WEBSITE"/>
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
+    </head>
 
     <div style="padding: 10px 30px 0px 30px; text-align: right;">
       <a class="download-link" href="https://www.docs.google.com/document/d/10RB1EKj8RIKA4bNUYqm5dbVqAIHBrLdzX-rF_Go0KH8/export?format=pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
@@ -54,11 +55,11 @@
               <li>Encapsulated 40+ common systems, editor, extensions to packages for reusing them in other projects</li>
                 <div>- My ShaderLibrary, Ads, Iap, GPGS, Gyro wrapers, MobileConsole, Universal MeshCombiner, Pool, UI Extensions, Utils etc</div>
               <li>2 completed projects 2 prototypes</li>
-                <div class="tech-stack">- <a @click="showDetails('project-9')">Neon Racer</a> (in progress)</div>
+                <div class="tech-stack">- <a @click="showDetails('MusicHeroRacer')">Neon Racer</a> (in progress)</div>
                 <div class="tech-stack">- TopDown car battles like PikoTanks (Network, in progress)(Showcase in progress)</div>
                 <div class="tech-stack">- 3rd person shooter (Network prototype)(Showcase in progress)</div>
-                <div class="tech-stack">- <a @click="showDetails('project-10')">Brawl Carts</a> (prototype)</div>
-                <div class="tech-stack">- <a @click="showDetails('project-13')">Big City Life 2</a> (not released)</div>
+                <div class="tech-stack">- <a @click="showDetails('BrawlKarts')">Brawl Carts</a> (prototype)</div>
+                <div class="tech-stack">- <a @click="showDetails('BCL_U')">Big City Life 2</a> (not released)</div>
               <li>Improved graphics Music Hero Racer by creating custom shaders - dissolve, world curve, blur, dirty lens, lut.</li>
               <li>Optimized Big City render on mobile up to 60 fps, by using tricks based on shaders, overdraw control and city partitioning, runtime mesh and skinned Mesh baking, runtime atlas baking.</li>
               <li>Made dynamic lightmap texture blending for smooth day/night effect and top down shadow/light projection by shaders.</li>
@@ -76,7 +77,7 @@
           <div style="padding-top: 10px;">Full game development process.</div>
             <ul style="margin-block-start: 0;">
               <li>Supporting last 4 projects</li>
-              <div class="tech-stack">- <a @click="showDetails('project-8')">Slime attack</a> (not released)</div>
+              <div class="tech-stack">- <a @click="showDetails('SlimeAttack')">Slime attack</a> (not released)</div>
             </ul>
         </div>
 
@@ -87,10 +88,10 @@
             <ul style="margin-block-start: 0;">
               <li>Grew up income to $1200/day</li>
               <li>Made & Published 4 games, completed 2 prototypes</li>
-              <div class="tech-stack">- <a @click="showDetails('project-11')">HideIO clone</a> (prototype)</div>
-              <div class="tech-stack">- <a @click="showDetails('project-12')">FoesIO clone</a> (prototype)</div>
+              <div class="tech-stack">- <a @click="showDetails('HideIO')">HideIO clone</a> (prototype)</div>
+              <div class="tech-stack">- <a @click="showDetails('FoesIO')">FoesIO clone</a> (prototype)</div>
               <div class="tech-stack">- <a @click="showDetails('project-5')">Big City Life</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.BCL" target="_blank">GooglePlay</a>: installs 10 000 000+, rating 4.5) Revenue: 570$/day</div>
-              <div class="tech-stack">- <a @click="showDetails('project-4')">Clash of Zombie</a> (not released)</div>
+              <div class="tech-stack">- <a @click="showDetails('ClashOfZombie')">Clash of Zombie</a> (not released)</div>
               <div class="tech-stack">- <a @click="showDetails('project-3')">Clash of Crime 2</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.ClashOfCrime2" target="_blank">GooglePlay</a>: installs 5 000 000+, rating 4.09)</div> 
               <div class="tech-stack">- <a @click="showDetails('project-2')">Clash of Crime</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.ClashOfCrime" target="_blank">GooglePlay</a>: installs 10 000 000+, rating 4.0) Revenue: 1040$/day</div> 
               <div class="tech-stack">- <a @click="showDetails('project-1')">World of derby</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.WOD" target="_blank">GooglePlay</a>: installs 1 000 000+, rating 4.3)</div> 

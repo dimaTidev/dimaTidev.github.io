@@ -20,7 +20,7 @@
       </li>
       <li>
         <i class="fa fa-instagram fa-lg fa-fw"></i>
-        <a href="https://www.instagram.com/dimatiart/" target="_blank">Instagram</a>
+        <a href="https://www.instagram.com/dimatidev/" target="_blank">Instagram</a>
       </li>
       <li>
         <i class="fa fa-facebook fa-lg fa-fw"></i>
