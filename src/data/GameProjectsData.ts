@@ -59,7 +59,24 @@ export default [
     </div>
     `, "#222222"),
     new ProjectData("FoesIO", "FoesIO", "img/projects/FoesIO/Icon.png", `
-        Sorry, show case in progress.
+    <div class="paragraph">
+    Clone FoesIO. 2D top down battle royale. Pick up weapon, ammo, armor and be the last one alive.
+</div>
+<div class="paragraph center">
+    <iframe class="pc-screenshot" src="https://www.youtube.com/embed/SiEs2b8D758" frameborder="0" allowfullscreen></iframe>
+    <iframe class="pc-screenshot" src="https://www.youtube.com/embed/fUU3tivUqfQ" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="paragraph center">
+    <img class="pc-screenshothalf" src="img/projects/FoesIO/Screen_0.jpg" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshothalf" src="img/projects/FoesIO/Screen_1.jpg" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshothalf" src="img/projects/FoesIO/Screen_2.jpg" alt="Singing Addict Screenshot" />
+</div>
+<div class="paragraph">
+  I've covered interesting technical aspects here:
+    <ul>
+    <li>Finite state machine (based on scriptableObjects)</li>
+    </ul>
+</div>
     `, "#222222"),
     new ProjectData("SlimeAttack", "Slime attack", "img/projects/SlimeAttack/Icon.png", `
     <div class="paragraph">
@@ -97,7 +114,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/WOD/Wod_screen_menu.jpg" alt="Singing Addict Screenshot" />
     </div>
     `, "#222222"),
-    new ProjectData("BCL_U", "BigCityLife Update", "img/projects/BCL/Icon.png", `
+    new ProjectData("BCL_U", "BigCityLife Update", "img/projects/BCL_Update/Icon.png", `
     <div class="paragraph">
     <p>The old version of this game was published on google play. Here is shown huge update for this game. But due to a team breakup development of this project was stopped.</p>
     <p>In this game, the player can use jobs to earn money and buy cars, house, customize a character, and fulfill desires. There is a taxi job, food delivery, 3 types of city clean job, builder, thief. Character need for sleep, eat and have fun. If a player uses cheats, the game will put him in the prison.
