@@ -20,7 +20,7 @@
 </th>
 <th>
     <div class="photo">
-      <img src="img/avatar_new.png" alt="Avatar of John" /> 
+      <img src="img/avatar_vr.png" alt="Avatar of Dima" /> 
     </div>
 </th>
 
