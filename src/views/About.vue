@@ -6,8 +6,8 @@
   <h1>Hello!</h1>
     <div class="paragraph">
       <div>
-        I'm <strong>Dmytro Tymofiienko</strong>, 7 years experienced mobile game developer on Unity3D.<br/>
-        I love discussing, designing and developing mobile games in general.
+        I'm <strong>Dima Tymofiienko</strong>, 7 years experienced mobile and VR game developer on Unity3D.<br/>
+        I love discussing, designing and developing mobile and VR games in general.
       </div>
 
       <div style="margin-top: 20px;">

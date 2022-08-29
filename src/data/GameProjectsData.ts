@@ -1,6 +1,34 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("VR_Crazy_Machines", "VR Crazy Machines", "img/projects/CrazyMachinesVR/Icon.png", `
+    <div class="paragraph">
+       Crazy Machines Clone. Built on <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank">WebXR Export</a>. VR Puzzle physics-based game where you have to solve puzzles using physical objects, steam pipes, belts, gears, and electric wires.
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/CrazyMachinesVR/First_lvl.gif" alt="Singing Addict Screenshot" />
+        <img class="pc-screenshot" src="img/projects/CrazyMachinesVR/BigProj.gif" alt="Singing Addict Screenshot" />
+        <img class="pc-screenshot" src="img/projects/CrazyMachinesVR/Gears.gif" alt="Singing Addict Screenshot" />
+        <img class="pc-screenshot" src="img/projects/CrazyMachinesVR/DisconnectPipe.gif" alt="Singing Addict Screenshot" />
+    </div>
+    <div class="paragraph center">
+        <img class="pc-screenshothalf" src="img/projects/CrazyMachinesVR/Electric_BatterySolar_connections.gif" alt="Singing Addict Screenshot" />
+        <img class="pc-screenshothalf" src="img/projects/CrazyMachinesVR/ToyCar.gif" alt="Singing Addict Screenshot" />
+        <img class="pc-screenshothalf" src="img/projects/CrazyMachinesVR/Solar_obstacles.gif" alt="Singing Addict Screenshot" />
+    </div>
+
+    <div class="paragraph">
+    It was interesting to make: 
+        <ul>
+        <li>VR Interactions from scratch. Sockets, pickup, buttons, levers, winding mechanisms. This interactions works with the mouse as well.
+        <li>Time rewind system. Which can put all things back to the places after simulation by rewinding time.
+        <li>Value network system for transmitting Value types (steam, electricity, kinematic energy, etc). Value type is a ScriptableObject and it's easy to add new Value types by copy ScriptableObject.
+        <li>Consumers and Producers which search each other by Binary Search Tree, when placed to the value network.
+        <li>Gears and belt system. Based on connections to each other system calculate direction and rotation speed.
+        </ul>
+    </div>
+    `, "#222222"),
     new ProjectData("MusicHeroRacer", "Music Hero Racer", "img/projects/NeonRacer/Icon.png", `
     <div class="paragraph">
         Variation of the game Guitar Hero. In this game, you need to collect blocks to the music. Collect cars and upgrade them. 
