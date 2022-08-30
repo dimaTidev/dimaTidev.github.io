@@ -33,8 +33,9 @@
       </div>
 
 
-      <h2>Full-Stack mobile game developer | 3d and 2d content developer</h2>
-      Game developer specialist, making games from idea to release. Specializing in gameplay, AI, network(Mirror), vfx, procedural generation, optimization, editor development, common systems and services, etc.<br>
+      <h2>Full-Stack mobile and VR game developer</h2>
+      7+ years mobile and VR game developer on Unity3D. Specializing in gameplay, AI, network(Mirror), vfx, procedural generation, runtime mesh manipulation, optimization, editor development, common systems and services, etc.
+      <br>
 
       <ul id="example-1" class="des">
           <li v-for="item in items" :key="item.message">
@@ -47,19 +48,21 @@
           <h2 class="dialog-title">Professional Experience</h2>
       </div>
 
-        <h3 style="margin: 0px 0px 0px 0px;">Full stack mobile game developer</h3>
+        <h3 style="margin: 0px 0px 0px 0px;">Full stack mobile and VR game developer</h3>
         <div class="des">
-          <div style= "font-style: italic;">Self employed, Warsaw, Poland  (Aug 2019 - Present)</div>
+          <div style= "font-style: italic;">Self employed, Warsaw, Poland - Toronto, Canada (Aug 2019 - Present)</div>
           <div style="padding-top: 10px;">Full game development process from scratch.</div>
             <ul style="margin-block-start: 0;">
               <li>Encapsulated 40+ common systems, editor, extensions to packages for reusing them in other projects</li>
                 <div>- My ShaderLibrary, Ads, Iap, GPGS, Gyro wrapers, MobileConsole, Universal MeshCombiner, Pool, UI Extensions, Utils etc</div>
-              <li>2 completed projects 2 prototypes</li>
+              <li>Completed pojects:</li>
+                <div class="tech-stack">- <a @click="showDetails('VR_Crazy_Machines')">VR Crazy Machines clone</a></div>
                 <div class="tech-stack">- <a @click="showDetails('MusicHeroRacer')">Neon Racer</a> (in progress)</div>
-                <div class="tech-stack">- TopDown car battles like PikoTanks (Network, in progress)(Showcase in progress)</div>
-                <div class="tech-stack">- 3rd person shooter (Network prototype)(Showcase in progress)</div>
+                <div class="tech-stack">- TopDown car battles like PikoTanks (Network prototype)</div>
+                <div class="tech-stack">- 3rd person shooter (Network prototype)</div>
                 <div class="tech-stack">- <a @click="showDetails('BrawlKarts')">Brawl Carts</a> (prototype)</div>
-                <div class="tech-stack">- <a @click="showDetails('BCL_U')">Big City Life 2</a> (not released)</div>
+                <div class="tech-stack">- <a @click="showDetails('BCL_U')">Big City Life 2</a></div>
+              <li>Made VR interactions from scratch and game play time rewind system.</li>
               <li>Improved graphics Music Hero Racer by creating custom shaders - dissolve, world curve, blur, dirty lens, lut.</li>
               <li>Optimized Big City render on mobile up to 60 fps, by using tricks based on shaders, overdraw control and city partitioning, runtime mesh and skinned Mesh baking, runtime atlas baking.</li>
               <li>Made dynamic lightmap texture blending for smooth day/night effect and top down shadow/light projection by shaders.</li>
@@ -77,7 +80,7 @@
           <div style="padding-top: 10px;">Full game development process.</div>
             <ul style="margin-block-start: 0;">
               <li>Supporting last 4 projects</li>
-              <div class="tech-stack">- <a @click="showDetails('SlimeAttack')">Slime attack</a> (not released)</div>
+              <div class="tech-stack">- <a @click="showDetails('SlimeAttack')">Slime attack</a></div>
             </ul>
         </div>
 
@@ -91,7 +94,7 @@
               <div class="tech-stack">- <a @click="showDetails('HideIO')">HideIO clone</a> (prototype)</div>
               <div class="tech-stack">- <a @click="showDetails('FoesIO')">FoesIO clone</a> (prototype)</div>
               <div class="tech-stack">- <a @click="showDetails('project-5')">Big City Life</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.BCL" target="_blank">GooglePlay</a>: installs 10 000 000+, rating 4.5) Revenue: 570$/day</div>
-              <div class="tech-stack">- <a @click="showDetails('ClashOfZombie')">Clash of Zombie</a> (not released)</div>
+              <div class="tech-stack">- <a @click="showDetails('ClashOfZombie')">Clash of Zombie</a></div>
               <div class="tech-stack">- <a @click="showDetails('project-3')">Clash of Crime 2</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.ClashOfCrime2" target="_blank">GooglePlay</a>: installs 5 000 000+, rating 4.09)</div> 
               <div class="tech-stack">- <a @click="showDetails('project-2')">Clash of Crime</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.ClashOfCrime" target="_blank">GooglePlay</a>: installs 10 000 000+, rating 4.0) Revenue: 1040$/day</div> 
               <div class="tech-stack">- <a @click="showDetails('project-1')">World of derby</a> (<a href="https://play.google.com/store/apps/details?id=com.CactusGames.WOD" target="_blank">GooglePlay</a>: installs 1 000 000+, rating 4.3)</div> 
@@ -199,7 +202,6 @@ export default Vue.extend({
   data: function () {
     return {
       items: [
-            { message: '7+ years of mobile game development on Unity3D for Android and iOS' },
             { message: 'Strong C# coding and systems design skills' },
             { message: 'Unity-specific language ShaderLab' },
             { message: 'Performance analysis and code optimization' },
