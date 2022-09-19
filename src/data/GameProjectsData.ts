@@ -1,6 +1,19 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("VR_WeaponShowCase", "VR weapon showcase", "img/projects/VR_WeaponShowCase/Icon.png", `
+    <div class="paragraph">
+       VR weapon interaction showcase. Built on <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank">WebXR Export</a>. In development. Currently available pistol. Other weapons are on the way. 
+    </div>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/UqstOUAfglk" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="paragraph center">
+        <img class="pc-screenshothalf" src="img/projects/VR_WeaponShowCase/Reloading.gif" alt="Singing Addict Screenshot" />
+        <img class="pc-screenshothalf" src="img/projects/VR_WeaponShowCase/PistolReloatThrow.gif" alt="Singing Addict Screenshot" />
+        <img class="pc-screenshothalf" src="img/projects/VR_WeaponShowCase/Pistol_throw.gif" alt="Singing Addict Screenshot" />
+    </div>
+    `, "#222222"),
     new ProjectData("VR_Crazy_Machines", "VR Crazy Machines", "img/projects/CrazyMachinesVR/Icon.png", `
     <div class="paragraph">
        Crazy Machines Clone. Built on <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank">WebXR Export</a>. VR Puzzle physics-based game where you have to solve puzzles using physical objects, steam pipes, belts, gears, and electric wires.
