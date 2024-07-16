@@ -1,0 +1,54 @@
+.container{
+    width: 800px;
+    height: 800px;
+    cursor: pointer;
+    overflow: hidden;
+    /* background: grey; */
+}
+
+.textImage{
+    width: 100%;
+
+    transition: 0.3s;
+    height: auto;
+    z-index: 0;
+
+    padding: 10px;
+}
+
+.selection{
+    z-index: 4;
+    position: relative;
+}
+
+.titleContainer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    transition: 0.3s;
+}
+
+.textOpacity{
+    opacity: 0.5;
+
+    transition: 0.3s;
+}
+
+.selection:hover > .titleContainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.selection:hover .textOpacity{
+    opacity: 1;
+}
+
+.selection:hover .textImage{
+    filter: brightness(90%);
+}

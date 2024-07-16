@@ -1,44 +1,36 @@
-# What is this ?
-This is a portfolio template that you can use to showcase your work, especially if it's comprised of projects that should be shown in a very visual way.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Looking for a game developer job, I needed a portfolio to present my work to recruiters. I found a lot of custom made portfolios, but no easy to use template unless I used Wordpress. Which was overkill to me because a static HTML/JS website would do fine.
+## Getting Started
 
-So i created my own using VueJS, keeping in mind that I wanted it to be easily customisable so other people can use this as a base to make their own. It's very simple, static, fast and responsive.
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-# How to use
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Install
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-    - Fork or duplicate the repository
-    - npm install
-    - npm run serve
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-2. Customize
-* For the content
-    - Except for the projects pages, everything is static HTML that you can edit directly in the views and components files
-    - For the projects pages, the page is dynamically populated at runtime using data stored in Typescript files (data/GameProjectsData.ts and data/OtherProjectsData.ts). Make the changes directly in these .ts files
-    - Static files (images, icons, downloadables,..) should be placed in /public folder.
-    - Make the necessary changes in the .env file (this is mostly the site metadata). You need to "npm run serve" again when updating this file.
+## Learn More
 
-* For the style
-    - The basic colors can be edited in the css/variables.less file.
-    - The rest of the CSS can be edited, if need be, directly inside each view and component.
-    - If you place custom CSS in your projects HTML data (that will be displayed in an overlay dialog), you must add the definition for this CSS in the css/projects.less file
+To learn more about Next.js, take a look at the following resources:
 
-* Additional info & optimizations
-    - Images will be loaded on-demand when you switch tabs. It means if you have big images or animated gifs, you may want to preload them so the user sees them faster when they change tabs. To do this, you can call Helpers.preloadImages in app.vue to preload heavy images.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-3. Deploy
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-    - npm run build
-    - copy the content of the "dist" folder (created by "npm run build") to the publish location.
-    - Check this example if you want to deploy to GitHub pages or some other major static content host: https://cli.vuejs.org/guide/deployment.html#github-pages
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-# License
-
-This is GNU LGPL, check the LICENSE file.
-
-https://github.com/schouffy/gamedev-portfolio \
-[For fast testing vue](https://codepen.io/arhey/pen/qNypPN)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

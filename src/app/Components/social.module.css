@@ -1,0 +1,9 @@
+.container{
+    padding: 10px;
+    /* background: grey; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 22px;
+}

@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+}
+
+.center{
+    align-self: center;
+}
+
+.pcScreenshotHalf{
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+}
+
+.flexScreenshotContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.flexRow2{
+    /* flex-basis: calc(30vw - 200px); */
+    flex-basis: calc(50% - 8px);
+    flex-grow: 1;
+    /* max-width: calc(30vw - 200px); */
+    max-width: calc(50% - 8px);
+
+    height: auto;
+}
+
+.flexRow3{
+    /* flex-basis: calc(30vw - 200px); */
+    flex-basis: calc(33% - 4px);
+    flex-grow: 1;
+    /* max-width: calc(30vw - 200px); */
+    max-width: calc(33% - 4px);
+
+    height: auto;
+}
+
+.youtube{
+    width: 100%;
+    height: 600px;
+}
+
+.youtube2{
+    width: 100%;
+    height: 300px;
+}
