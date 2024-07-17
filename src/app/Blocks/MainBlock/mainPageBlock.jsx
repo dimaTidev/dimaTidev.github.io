@@ -12,8 +12,7 @@ export default function Element(){
                     <h2>Dima Tymofiienko</h2>
                     <label>
                         9+ years of experience in software development. Specialize in XR, mobile, and web development. 
-                        Proven ability to solve critical issues, and improve project efficiency. 
-                        <br/> Passionate about building effective solutions and supporting team success.
+                        Passionate about building effective solutions and supporting team success.
                     </label>
                     <div className={Styles.textContainerSocial}>
                         <Social/>
