@@ -12,7 +12,7 @@ import Screen4 from "./Screen_4.PNG";
 import Screen5 from "./Screen_5.PNG";
 import Screen6 from "./Screen_6.PNG";
 
-export const data = new GameDataClass("Slime attack", Icon,
+export const data = new GameDataClass("Slime attack", "SlimeAttack", Icon,
     (
        <div className={Styles.container}>
          <div>

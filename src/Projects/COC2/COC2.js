@@ -12,7 +12,7 @@ import Screen4 from "./Screen_4.jpg";
 
 import IconGooglePlay from "../etc/logo_googlePlayStore.png";
 
-export const data = new GameDataClass("Clash of Crime 2", Icon,
+export const data = new GameDataClass("Clash of Crime 2", "COC2", Icon,
     (
        <div className={Styles.container}>
             <div>

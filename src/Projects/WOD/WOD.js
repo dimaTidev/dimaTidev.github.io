@@ -14,7 +14,7 @@ import Screen4 from "./Wod_screen_menu.jpg";
 import IconGooglePlay from "../etc/logo_googlePlayStore.png";
 import IconAppStore from "../etc/logo_AppStore.png";
 
-export const data = new GameDataClass("World of Derby", Icon,
+export const data = new GameDataClass("World of Derby", "WOD", Icon,
     (
        <div className={Styles.container}>
          <div>

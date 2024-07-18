@@ -10,7 +10,7 @@ import Screen3 from "./Screen_3.jpg";
 import Screen4 from "./Screen_4.jpg";
 import Screen5 from "./Screen_5.jpg";
 
-export const data = new GameDataClass("Clash of Zombie", Icon,
+export const data = new GameDataClass("Clash of Zombie", "ClashOfZombie", Icon,
     (
        <div className={Styles.container}>
          <div>

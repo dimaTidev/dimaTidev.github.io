@@ -1,5 +1,6 @@
 export class GameDataClass{
-    constructor(title, imageURL, innerHTML){
+    constructor(title, queryId, imageURL, innerHTML){
+        this.queryId = queryId;
         this.title = title;
         this.imageURL = imageURL;
         this.innerHTML = innerHTML;

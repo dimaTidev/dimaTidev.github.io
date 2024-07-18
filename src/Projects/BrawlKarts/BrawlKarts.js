@@ -10,7 +10,7 @@ import Screen1 from "./Screen_1.jpg";
 import Screen2 from "./Screen_2.jpg";
 import Screen3 from "./Screen_3.jpg";
 
-export const data = new GameDataClass("Brawl Karts", Icon,
+export const data = new GameDataClass("Brawl Karts", "BrawlKarts", Icon,
     (
        <div className={Styles.container}>
             <div>
