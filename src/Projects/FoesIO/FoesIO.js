@@ -9,7 +9,7 @@ import Screen0 from "./Screen_0.jpg";
 import Screen1 from "./Screen_1.jpg";
 import Screen2 from "./Screen_2.jpg";
 
-export const data = new GameDataClass("FoesIO", Icon,
+export const data = new GameDataClass("FoesIO", "FoesIO", Icon,
     (
        <div className={Styles.container}>
             <div>

@@ -11,7 +11,7 @@ import Screen2 from "./DayNightShift.gif";
 import Screen3 from "./LightScaleUp.gif";
 import Screen4 from "./TopDownShadow.gif";
 
-export const data = new GameDataClass("BigCityLife Update", Icon,
+export const data = new GameDataClass("BigCityLife Update", "BCL_U", Icon,
     (
        <div className={Styles.container}>
             <div>

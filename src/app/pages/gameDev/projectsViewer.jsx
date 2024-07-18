@@ -1,7 +1,5 @@
 'use client';
 
-import Header from "../../Blocks/header";
-import Footer from "../../Blocks/footer";
 import GameElement from "./gameElement";
 import Styles from "./page.module.css";
 import ProjectDetailsOverlay from "./projectDetailsOverlay";
@@ -9,15 +7,28 @@ import ProjectDetailsOverlay from "./projectDetailsOverlay";
 // Data
 import { GamesData } from "../../../Projects/Projects";
 import React, { useState } from 'react';
+import { useSearchParams } from 'next/navigation'
 
 export default function Page() {
-  const [selectedProjectName, setProject] = useState("");
+  const [selectedProjectName, setProject] = useState("undefined");
   const [oldScroll, setOldScroll] = useState(0);
+  const searchParams = useSearchParams();
 
   let isProjectSelected = false;
   let projectData = GamesData[0];
 
-  if(selectedProjectName != ""){
+  // Search in querry params to open a particular project 
+  const result = searchParams.get("project");
+  if(selectedProjectName === "undefined" && result != "undefined"){
+    GamesData.forEach(element => {
+      if(element.queryId === result){
+        console.log("Set title");
+        setProject(element.title);
+      }
+    });
+  }
+
+  if(selectedProjectName != "" && selectedProjectName != "undefined"){
     // find project
     isProjectSelected = true;
 

@@ -9,7 +9,7 @@ import Screen0 from "./CarSwitch.gif";
 import Screen1 from "./Screen_0.jpg";
 import Screen2 from "./Screen_1.jpg";
 
-export const data = new GameDataClass("Music Hero Racer", Icon,
+export const data = new GameDataClass("Music Hero Racer", "MusicHeroRacer", Icon,
     (
        <div className={Styles.container}>
             <div>

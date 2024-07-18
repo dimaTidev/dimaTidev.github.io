@@ -14,7 +14,7 @@ import Screen6 from "./GTA3_screen_6.jpg";
 
 import IconGooglePlay from "../etc/logo_googlePlayStore.png";
 
-export const data = new GameDataClass("Big City Life", Icon,
+export const data = new GameDataClass("Big City Life", "BCL", Icon,
     (
        <div className={Styles.container}>
             <div>

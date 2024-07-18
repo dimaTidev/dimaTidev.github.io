@@ -12,7 +12,7 @@ import Screen4 from "./Electric_BatterySolar_connections.gif";
 import Screen5 from "./ToyCar.gif";
 import Screen6 from "./Solar_obstacles.gif";
 
-export const data = new GameDataClass("VR Crazy Machines", Icon,
+export const data = new GameDataClass("VR Crazy Machines", "VR_Crazy_Machines", Icon,
     (
        <div className={Styles.container}>
          <div>

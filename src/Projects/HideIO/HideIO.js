@@ -11,7 +11,7 @@ import Screen2 from "./OpenCrate.gif";
 import Screen3 from "./hider_morph.gif";
 import Screen4 from "./hider_morph_2.gif";
 
-export const data = new GameDataClass("HideIO", Icon,
+export const data = new GameDataClass("HideIO", "HideIO", Icon,
     (
        <div className={Styles.container}>
             <div>

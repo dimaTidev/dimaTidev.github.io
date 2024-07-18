@@ -8,7 +8,7 @@ import Screen0 from "./Pistol_throw.gif";
 import Screen1 from "./PistolReloatThrow.gif";
 import Screen2 from "./Reloading.gif";
 
-export const data = new GameDataClass("VR weapon showcase", Icon,
+export const data = new GameDataClass("VR weapon showcase", "VR_weapon_showcase", Icon,
     (
        <div className={Styles.container}>
          <div>
