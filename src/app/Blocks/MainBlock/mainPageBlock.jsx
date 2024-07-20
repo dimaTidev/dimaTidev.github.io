@@ -24,7 +24,7 @@ export default function Element(){
                     </div>
                 </div>
             </div>
-            <div div className={Styles.flexBasis}></div>
+            <div className={Styles.flexBasis}></div>
             <div className={Styles.imageContainer}></div>
         </div>
     );
