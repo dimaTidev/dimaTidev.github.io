@@ -14,7 +14,7 @@ export default function Element({title, imageUrl, additionalClassName, onClick})
             {/* <div className={Styles.textImage} style={{ backgroundImage: `url(${bg})`, width: '100px', height: '100px', }}></div> */}
             {/* <div className={Styles.textImage} style={{ backgroundImage: `url(${imageUrl})` }} onClick={() => onClick(title)}></div> */}
             <div className={Styles.selection}>
-                <Image className={Styles.textImage} src={imageUrl} onClick={() => onClick(title)}/>
+                <Image className={Styles.textImage} src={imageUrl} alt="Project image" onClick={() => onClick(title)}/>
                 <div className={Styles.titleContainer}>
                     <h4 className={Styles.textOpacity}>{title}</h4>
                 </div>

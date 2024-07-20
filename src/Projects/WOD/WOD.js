@@ -27,8 +27,8 @@ export const data = new GameDataClass("World of Derby", "WOD", Icon,
         </div>
 
         <div className={classNames(Styles.center, Styles.flexScreenshotContainer)}>
-            <a href="https://play.google.com/store/apps/details?id=com.CactusGames.WOD" target="_blank"><img src={IconGooglePlay} alt="Play Store badge" /></a>
-            <a href="https://apps.apple.com/us/app/world-of-derby-full/id1078273212" target="_blank"><img src={IconAppStore} alt="Play Store badge" /></a>
+            <a href="https://play.google.com/store/apps/details?id=com.CactusGames.WOD" target="_blank"><Image src={IconGooglePlay} alt="Play Store badge" /></a>
+            <a href="https://apps.apple.com/us/app/world-of-derby-full/id1078273212" target="_blank"><Image src={IconAppStore} alt="Play Store badge" /></a>
         </div>
 
         <div className={Styles.flexScreenshotContainer}>
