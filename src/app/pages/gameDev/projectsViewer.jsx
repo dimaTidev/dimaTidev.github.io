@@ -3,13 +3,23 @@
 import GameElement from "./gameElement";
 import Styles from "./page.module.css";
 import ProjectDetailsOverlay from "./projectDetailsOverlay";
+import { Suspense } from 'react'
 
 // Data
 import { GamesData } from "../../../Projects/Projects";
 import React, { useState } from 'react';
 import { useSearchParams } from 'next/navigation'
 
-export default function Page() {
+// https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+export default function PageWrapper() {
+  return (
+    <Suspense>
+      <Page />
+    </Suspense>
+  )
+}
+
+function Page() {
   const [selectedProjectName, setProject] = useState("undefined");
   const [oldScroll, setOldScroll] = useState(0);
   const searchParams = useSearchParams();
