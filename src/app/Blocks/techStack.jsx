@@ -1,16 +1,16 @@
 import Styles from "./techStack.module.css";
+import { Chip, tags } from "../Components/tagChips";
 
 export default function Element(){
     return (
         <div className={Styles.container}>
-            <label>Unity3d</label>
-            <label>C#</label>
-            <label>JavaScript</label>
-            <label>HTML/CSS</label>
-            <label>React</label>
-            <label>StableDiffusion</label>
-            <label>ComfyUI</label>
-            <label>Figma</label>
+            <Chip tag={tags.Unity3d} isQuiet={true}/>
+            <Chip tag={tags.React} isQuiet={true}/>
+            <Chip tag={tags.CSharp} isQuiet={true}/>
+            <Chip tag={tags.ShaderLab} isQuiet={true}/>
+            <Chip tag={tags.JavaScript} isQuiet={true}/>
+            <Chip tag={tags.Html} isQuiet={true}/>
+            <Chip tag={tags.Css} isQuiet={true}/>
         </div>
     );
 }

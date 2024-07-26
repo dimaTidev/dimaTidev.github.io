@@ -63,7 +63,7 @@ function Page() {
 
           {GamesData.map((element, i) =>{
             return (
-              <GameElement key={i} title={element.title} imageUrl={element.imageURL} additionalClassName={Styles.gridElement} 
+              <GameElement key={i} title={element.title} imageUrl={element.imageURL} additionalClassName={Styles.gridElement} tags={element.tags}
               onClick={(data) => {
                 setProject(data);
                 setOldScroll(window.scrollY);
@@ -78,7 +78,7 @@ function Page() {
       {isProjectSelected && <ProjectDetailsOverlay onClose={() => {
         setProject("");
         window.scrollTo(0, oldScroll);
-      }} title={projectData.title} innerJSX={projectData.innerHTML}/>}
+      }} title={projectData.title} innerJSX={projectData.innerHTML} tags={projectData.tags}/>}
     </>
 
   );

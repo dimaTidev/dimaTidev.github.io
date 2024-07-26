@@ -3,6 +3,8 @@ import Styles from "../styles.module.css";
 import classNames from 'classnames';
 import Image from 'next/image';
 
+import { tags } from "../../app/Components/tagChips";
+
 import Icon from "./Icon.png";
 import Screen0 from "./Pistol_throw.gif";
 import Screen1 from "./PistolReloatThrow.gif";
@@ -26,5 +28,6 @@ export const data = new GameDataClass("VR weapon showcase", "VR_weapon_showcase"
         </div>
 
        </div>
-    )
+    ),
+    [tags.Unity3d, tags.CSharp, tags.ShaderLab, tags.XR]
 );

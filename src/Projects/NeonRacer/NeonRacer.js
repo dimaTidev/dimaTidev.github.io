@@ -3,6 +3,7 @@ import Styles from "../styles.module.css";
 import classNames from 'classnames';
 
 import Image from 'next/image';
+import { tags } from "../../app/Components/tagChips";
 
 import Icon from "./Icon.png";
 import Screen0 from "./CarSwitch.gif";
@@ -37,5 +38,6 @@ export const data = new GameDataClass("Music Hero Racer", "MusicHeroRacer", Icon
             </div>
 
        </div>
-    )
+    ),
+    [tags.Unity3d, tags.CSharp, tags.ShaderLab, tags.Mobile]
 );
