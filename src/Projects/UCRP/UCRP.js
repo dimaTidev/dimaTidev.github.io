@@ -14,19 +14,24 @@ export const data = new GameDataClass("Unity Cloud Reference Project", "UCRP", S
        <div className={Styles.container}>
             <div>
                 The project is a fully functional collaborative design review tool for 3D assets. 
-                <br/> Supports PC, Android, iOS, WebGL, VR (Quest2) and Hololens.
+                Supports PC, Android, iOS, WebGL, VR (Quest2) and Hololens.
 
                 <p> 
                     The Unity Cloud Reference Project is intended as a starting point for industry developers, and is architected with customization and extensibility in mind. Developers can pull in changes from the latest release with minimal conflicts to their codebase and can easily remove unwanted features. It supports many build targets including WebGL, which along with deep-linking support, empowers users to easily share their 3D assets for review with one-click.
                 </p>
             </div>
 
-            <a href=" https://github.com/Unity-Technologies/unity-cloud-reference-project?tab=readme-ov-file" className="fa fa-github fa-lg" target="_blank"> Project repo</a>
-
+            <p/> 
             <div className={Styles.flexScreenshotContainer}>
                 <iframe className={classNames(Styles.youtube2, Styles.flexRow2)} src="https://www.youtube.com/embed/E0alTWB8m2Q" frameBorder="0" allowFullScreen></iframe> 
                 <iframe className={classNames(Styles.youtube2, Styles.flexRow2)} src="https://www.youtube.com/embed/WTCf5geMghw" frameBorder="0" allowFullScreen></iframe> 
             </div>
+
+            <div className={classNames(Styles.buttonGithub, Styles.center)}>
+                <a href=" https://github.com/Unity-Technologies/unity-cloud-reference-project?tab=readme-ov-file" className="fa fa-github fa-lg" target="_blank"/>
+                <label> Project repo</label>
+            </div>
+
 
             <div className={Styles.flexScreenshotContainer}>
                 <Image className={Styles.flexRow3} src={Screen1} alt="image" />
@@ -42,7 +47,7 @@ export const data = new GameDataClass("Unity Cloud Reference Project", "UCRP", S
                 <a href="https://docs.unity.com/cloud/en-us/creator-sdks/deep-linking" target="_blank">Deep Linking, </a>
                 <a href="https://docs.unity.com/cloud/en-us/creator-sdks/annotations" target="_blank">Annotations, </a>
                 <a href="https://docs.unity.com/cloud/en-us/creator-sdks/presence" target="_blank">Presence, </a> and
-                <a href="https://docs.unity.com/cloud/en-us/creator-sdks/metadata" target="_blank"> Metadata, </a> 
+                <a href="https://docs.unity.com/cloud/en-us/creator-sdks/metadata" target="_blank"> Metadata. </a> 
             </div>
        </div>
     ),
