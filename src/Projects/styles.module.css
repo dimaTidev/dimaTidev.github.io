@@ -52,3 +52,15 @@
     width: 100%;
     height: 300px;
 }
+
+.buttonGithub{
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 6px;
+    background-color: var(--background-color-400);
+}
+
+.buttonGithub:hover{
+    background-color: var(--background-color-300);
+}
