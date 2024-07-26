@@ -3,6 +3,8 @@ import Styles from "../styles.module.css";
 
 import Image from 'next/image';
 
+import { tags } from "../../app/Components/tagChips";
+
 import Icon from "./Icon.png";
 import Screen0 from "./First_lvl.gif";
 import Screen1 from "./BigProj.gif";
@@ -39,10 +41,7 @@ export const data = new GameDataClass("VR Crazy Machines", "VR_Crazy_Machines", 
             <li>Gears and belt system. Based on connections to each other system calculate direction and rotation speed.</li>
             </ul>
         </div>
-
-        
-
-
        </div>
-    )
+    ),
+    [tags.Unity3d, tags.CSharp, tags.ShaderLab, tags.XR]
 );

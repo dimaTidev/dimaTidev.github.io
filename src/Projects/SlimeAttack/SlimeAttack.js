@@ -3,6 +3,7 @@ import Styles from "../styles.module.css";
 import classNames from 'classnames';
 
 import Image from 'next/image';
+import { tags } from "../../app/Components/tagChips";
 
 import Icon from "./Icon.png";
 import Screen1 from "./Screen_1.PNG";
@@ -32,5 +33,6 @@ export const data = new GameDataClass("Slime attack", "SlimeAttack", Icon,
             <Image className={Styles.flexRow2} src={Screen6} alt="image" />
         </div>
        </div>
-    )
+    ),
+    [tags.Unity3d, tags.CSharp, tags.Mobile]
 );

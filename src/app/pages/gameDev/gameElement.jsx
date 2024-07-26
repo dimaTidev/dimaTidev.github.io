@@ -4,9 +4,11 @@ import Image from 'next/image'
 import classNames from "classnames";
 import Styles from "./gameElement.module.css";
 
+import { Chip } from "../../Components/tagChips";
+
 //import bg from './Icon_slimeAttack.jpg'
 
-export default function Element({title, imageUrl, additionalClassName, onClick}){
+export default function Element({title, imageUrl, additionalClassName, tags, onClick}){
     return (
         <div className={classNames(Styles.container, additionalClassName)}>
             {/* <Image src={imageUrl} alt="logo"/> */}
@@ -16,7 +18,14 @@ export default function Element({title, imageUrl, additionalClassName, onClick})
             <div className={Styles.selection}>
                 <Image className={Styles.textImage} src={imageUrl} alt="Project image" onClick={() => onClick(title)}/>
                 <div className={Styles.titleContainer}>
-                    <h4 className={Styles.textOpacity}>{title}</h4>
+                    <h3 className={Styles.textOpacity}>{title}</h3>
+                    <div className={Styles.tagsContainer}>
+                        {tags && tags.map((tag, i) =>{
+                            return (
+                                <Chip key={i} tag={tag} isSmallSize={true}/>
+                            )
+                        })}
+                    </div>
                 </div>
             </div>
             

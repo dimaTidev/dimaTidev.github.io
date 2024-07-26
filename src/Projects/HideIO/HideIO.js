@@ -3,6 +3,7 @@ import Styles from "../styles.module.css";
 import classNames from 'classnames';
 
 import Image from 'next/image';
+import { tags } from "../../app/Components/tagChips";
 
 import Icon from "./Icon.png";
 import Screen0 from "./HideSeek.gif";
@@ -36,5 +37,6 @@ export const data = new GameDataClass("HideIO", "HideIO", Icon,
             </div>
 
        </div>
-    )
+    ),
+    [tags.Unity3d, tags.CSharp, tags.Mobile, tags.Multiplayer]
 );

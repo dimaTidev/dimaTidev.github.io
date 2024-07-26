@@ -3,6 +3,7 @@ import Styles from "../styles.module.css";
 import classNames from 'classnames';
 
 import Image from 'next/image';
+import { tags } from "../../app/Components/tagChips";
 
 import Icon from "./Icon.png";
 import Screen0 from "./Car_Destructibles.gif";
@@ -45,5 +46,6 @@ export const data = new GameDataClass("BigCityLife Update", "BCL_U", Icon,
                 </ul>
             </div>
        </div>
-    )
+    ),
+    [tags.Unity3d, tags.CSharp, tags.Mobile]
 );
