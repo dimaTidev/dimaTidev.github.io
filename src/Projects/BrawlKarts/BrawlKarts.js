@@ -3,6 +3,7 @@ import Styles from "../styles.module.css";
 import classNames from 'classnames';
 
 import Image from 'next/image';
+import { tags } from "../../app/Components/tagChips";
 
 import Icon from "./Icon.png";
 import Screen0 from "./Screen_0.jpg";
@@ -28,5 +29,6 @@ export const data = new GameDataClass("Brawl Karts", "BrawlKarts", Icon,
             </div>
 
        </div>
-    )
+    ),
+    [tags.Unity3d, tags.CSharp, tags.ShaderLab, tags.Mobile, tags.Multiplayer]
 );

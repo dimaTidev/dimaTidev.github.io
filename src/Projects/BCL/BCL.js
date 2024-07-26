@@ -3,6 +3,7 @@ import Styles from "../styles.module.css";
 import classNames from 'classnames';
 
 import Image from 'next/image';
+import { tags } from "../../app/Components/tagChips";
 
 import Icon from "./Icon.png";
 import Screen0 from "./GTA3_screen_0.jpg";
@@ -31,13 +32,14 @@ export const data = new GameDataClass("Big City Life", "BCL", Icon,
             </div>
 
             <div className={Styles.flexScreenshotContainer}>
-                <Image className={Styles.flexRow3} src={Screen0} alt="image" />
-                <Image className={Styles.flexRow3} src={Screen1} alt="image" />
-                <Image className={Styles.flexRow3} src={Screen2} alt="image" />
-                <Image className={Styles.flexRow3} src={Screen3} alt="image" />
-                <Image className={Styles.flexRow3} src={Screen5} alt="image" />
-                <Image className={Styles.flexRow3} src={Screen6} alt="image" />
+                <Image className={Styles.flexRow2} src={Screen0} alt="image" />
+                <Image className={Styles.flexRow2} src={Screen1} alt="image" />
+                <Image className={Styles.flexRow2} src={Screen2} alt="image" />
+                <Image className={Styles.flexRow2} src={Screen3} alt="image" />
+                <Image className={Styles.flexRow2} src={Screen5} alt="image" />
+                <Image className={Styles.flexRow2} src={Screen6} alt="image" />
             </div>
        </div>
-    )
+    ),
+    [tags.Unity3d, tags.CSharp, tags.Mobile]
 );
