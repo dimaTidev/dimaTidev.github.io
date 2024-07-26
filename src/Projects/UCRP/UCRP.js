@@ -27,10 +27,12 @@ export const data = new GameDataClass("Unity Cloud Reference Project", "UCRP", S
                 <iframe className={classNames(Styles.youtube2, Styles.flexRow2)} src="https://www.youtube.com/embed/WTCf5geMghw" frameBorder="0" allowFullScreen></iframe> 
             </div>
 
-            <div className={classNames(Styles.buttonGithub, Styles.center)}>
-                <a href=" https://github.com/Unity-Technologies/unity-cloud-reference-project?tab=readme-ov-file" className="fa fa-github fa-lg" target="_blank"/>
-                <label> Project repo</label>
-            </div>
+            
+                <a className={classNames(Styles.buttonGithub, Styles.center)} href=" https://github.com/Unity-Technologies/unity-cloud-reference-project?tab=readme-ov-file" target="_blank">
+                    <a className="fa fa-github fa-lg"/>
+                    <label className={Styles.ignorePointer}> Project repo</label>
+                </a>
+            
 
 
             <div className={Styles.flexScreenshotContainer}>

@@ -63,4 +63,9 @@
 
 .buttonGithub:hover{
     background-color: var(--background-color-300);
+    cursor: pointer;
+}
+
+.ignorePointer{
+    pointer-events: none;
 }
