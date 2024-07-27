@@ -41,7 +41,7 @@ export const data = new GameDataClass("DOTS Ants", "DOTSAnts", Icon,
             </div>
 
             <br/><br/>
-            <h3 className={Styles.center}>A short project desciption</h3>     
+            <h3 className={Styles.center}>A short project description</h3>     
             <br/>
 
             <div className={Styles.flexScreenshotContainer}>
