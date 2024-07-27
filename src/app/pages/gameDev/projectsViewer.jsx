@@ -54,8 +54,8 @@ function Page() {
     <>
        <div className={Styles.body}>
         <div className={Styles.textContainer} style={{ marginLeft: '80px', marginTop: '40px', marginBottom: '40px'}}>
-            <h2>My Projects</h2>
-            <label>Projects for the last 3 years are missing. Coming soon...</label>
+            <h2>Projects</h2>
+            <label>Latest projects are coming soon</label>
         </div>
         
 

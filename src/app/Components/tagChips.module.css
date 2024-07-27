@@ -28,11 +28,11 @@
 }
 
 .size_S{
-    font-size: 14px;
-    padding: 1px 6px 1px 6px;
+    font-size: 12px;
+    padding: 0px 5px 0px 5px;
 }
 
 .size_S .icon{
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
 }
