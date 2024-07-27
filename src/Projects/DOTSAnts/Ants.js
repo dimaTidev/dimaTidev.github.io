@@ -18,7 +18,6 @@ import Screen2 from "./Screen_2.jpg";
 export const data = new GameDataClass("DOTS Ants", "DOTSAnts", Icon,
     (
        <div className={Styles.container}>
-        {/* Data oriented technology stack (DOTS) used in this project. The project goal was to migrate existing simulation project from Object oriented to DOTS.  */}
             I migrated the existing project to Data oriented technology stack (DOTS) and improved performance to 60 FPS. 
             <p>
                 <h3>The problem was:</h3>
@@ -32,7 +31,6 @@ export const data = new GameDataClass("DOTS Ants", "DOTSAnts", Icon,
 
             <div className={Styles.flexScreenshotContainer}>
                 <iframe className={classNames(Styles.youtube)} src="https://www.youtube.com/embed/daum8_I6bHk" frameBorder="0" allowFullScreen></iframe> 
-                {/* <iframe className={classNames(Styles.youtube2, Styles.flexRow2)} src="https://www.youtube.com/embed/fUU3tivUqfQ" frameBorder="0" allowFullScreen></iframe>  */}
             </div>
 
             
@@ -52,9 +50,9 @@ export const data = new GameDataClass("DOTS Ants", "DOTSAnts", Icon,
                     <p>
                         &bull; We have a map with ants base in the center
                         <br/>&bull; The map contains a food source
-                        <br/>&bull; The map contains obstacle in form of circular walls.
+                        <br/>&bull; The map contains obstacles in the form of circular walls.
                         <br/>&bull; Ants should find the food source and bring the food to the base.
-                        <br/>&bull; Each ant leaves a red pheromone to guide next ants.
+                        <br/>&bull; Each ant leaves a red pheromone to guide the next ants.
                     </p>
                 </div>
 
@@ -62,7 +60,7 @@ export const data = new GameDataClass("DOTS Ants", "DOTSAnts", Icon,
             </div>
 
             <br/><br/>
-            <h3 className={Styles.center}>After jobs paralelization I used different technics to improve performance:</h3>     
+            <h3 className={Styles.center}>After jobs parallelization, I used different techniques to improve performance:</h3>     
             <br/>
 
             <div className={Styles.flexScreenshotContainer}>
@@ -90,17 +88,17 @@ export const data = new GameDataClass("DOTS Ants", "DOTSAnts", Icon,
                 <div className={Styles.flexRowFill}>
                     <h3>Obstacles baking</h3>
                     <p>
-                        Each ant does 2 raycasts to determine obstacles on the way. It scales very bad when we add 200k ants.
+                        Each ant does 2 raycasts to determine obstacles on the way. It scales badly when we add 200k ants.
                     </p>
 
                     <p>
-                        I replaced raycasting with prebaked obstacles map.
-                        <br/> Instead of raycasting each ant checks the next pixel on the obstacle map.
+                        I replaced raycasting with a pre-baked obstacle map.
+                        <br/> Instead of raycasting, each ant checks the next pixel on the obstacle map.
                         
                     </p>
 
                     <p>
-                        This implementation makes 4 mechannics (pheromones, vision, obstacles) follow the same approach which simplified the code.
+                        This implementation makes 4 mechanics (pheromones, vision, obstacles) follow the same approach which simplifies the code.
                     </p>
                 </div>
 
@@ -118,8 +116,6 @@ export const data = new GameDataClass("DOTS Ants", "DOTSAnts", Icon,
                 <Image className={Styles.flexRow} src={ProfilerDOTS} alt="image" />
                 <div>After DOTS migration CPU: 15ms</div>
             </p>
-            
-
        </div>
     ),
     [tags.Unity3d, tags.CSharp, tags.DOTS]
