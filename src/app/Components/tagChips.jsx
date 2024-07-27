@@ -26,6 +26,7 @@ export const tags = Object.freeze({
     Mobile: { text: "Mobile", image: Mobile },
     XR: { text: "XR", image: XR },
     Multiplayer: { text: "Multiplayer", image: Multiplayer },
+    DOTS: { text: "DOTS", image: Unity3d },
 });
 
 export function Chip({ tag, isQuiet, isSmallSize}){

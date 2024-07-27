@@ -12,9 +12,11 @@ import { data as Zombie} from "./Zombie/Zombie"
 import { data as COC} from "./COC/COC"
 import { data as BCL} from "./BCL/BCL"
 import { data as UCRP} from "./UCRP/UCRP"
+import { data as DOTSAnts} from "./DOTSAnts/Ants"
 
 export const GamesData = [ 
     UCRP,
+    DOTSAnts,
     VR_WeaponShowCase,
     CrazyMachinesVR,
     NeonRacer,
