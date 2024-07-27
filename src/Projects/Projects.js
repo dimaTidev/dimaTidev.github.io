@@ -13,9 +13,11 @@ import { data as COC} from "./COC/COC"
 import { data as BCL} from "./BCL/BCL"
 import { data as UCRP} from "./UCRP/UCRP"
 import { data as DOTSAnts} from "./DOTSAnts/Ants"
+import { data as HackBattleShips } from "./HackBattleShips"
 
 export const GamesData = [ 
     UCRP,
+    HackBattleShips,
     DOTSAnts,
     VR_WeaponShowCase,
     CrazyMachinesVR,
