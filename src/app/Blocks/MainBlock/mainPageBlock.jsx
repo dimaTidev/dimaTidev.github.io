@@ -5,15 +5,17 @@ import classNames from 'classnames';
 
 export default function Element(){
     return (
-        <div className={Styles.container}>
+        <div className={classNames(Styles.container, "section-content-container")}>
             <div className={classNames(Styles.textContainer)}> 
                 <div className={Styles.flexWrapper}>
-                    <h3>Software developer</h3>
-                    <h2>Dima Tymofiienko</h2>
-                    <label>
+                    <label>Dima Tymofiienko</label>
+                    <h2>Senior Software developer</h2>
+                    {/* <label>Software developer</label>
+                    <h2>Dima Tymofiienko</h2> */}
+                    <p>
                         9+ years of experience in software development. Specialize in XR, mobile, and web development. 
                         Passionate about building effective solutions and supporting team success.
-                    </label>
+                    </p>
                     <div className={Styles.textContainerSocial}>
                         <Social/>
                         <div>

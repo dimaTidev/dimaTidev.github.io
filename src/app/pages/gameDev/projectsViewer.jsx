@@ -9,6 +9,7 @@ import { Suspense } from 'react'
 import { GamesData } from "../../../Projects/Projects";
 import React, { useState } from 'react';
 import { useSearchParams } from 'next/navigation'
+import classNames from "classnames";
 
 // https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
 export default function PageWrapper() {
@@ -52,8 +53,8 @@ function Page() {
 
   return (
     <>
-       <div className={Styles.body}>
-        <div className={Styles.textContainer} style={{ marginLeft: '80px', marginTop: '40px', marginBottom: '40px'}}>
+       <div className={classNames(Styles.body, "section-content-container")}>
+        <div className={Styles.textContainer} style={{ marginTop: '40px', marginBottom: '40px'}}>
             <h2>Projects</h2>
             <label>Latest projects are coming soon</label>
         </div>
