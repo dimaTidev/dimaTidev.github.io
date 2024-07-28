@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import Image from 'next/image';
 import { tags } from "../../app/Components/tagChips";
 
-import Icon from "./Icon.png";
+import Icon from "./Icon.jpg";
 import Screen0 from "./GTA3_screen_0.jpg";
 import Screen1 from "./GTA3_screen_1.jpg";
 import Screen2 from "./GTA3_screen_2.jpg";
