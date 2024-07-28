@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import Image from 'next/image';
 import { tags } from "../../app/Components/tagChips";
 
-import Icon from "./Icon.png";
+import Icon from "./Icon.jpg";
 import Screen0 from "./Car_Destructibles.gif";
 import Screen1 from "./Jobs.gif";
 import Screen2 from "./DayNightShift.gif";
