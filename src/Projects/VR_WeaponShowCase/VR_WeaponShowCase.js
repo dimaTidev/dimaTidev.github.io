@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import { tags } from "../../app/Components/tagChips";
 
-import Icon from "./Icon.png";
+import Icon from "./Icon.jpg";
 import Screen0 from "./Pistol_throw.gif";
 import Screen1 from "./PistolReloatThrow.gif";
 import Screen2 from "./Reloading.gif";
